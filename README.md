@@ -1,5 +1,7 @@
 ## Python plotting course
 
+https://ualberta-rcg.github.io/python-plotting/
+
 To install the dependencies, run the following in a Jupyter notebook:
 
 ```
