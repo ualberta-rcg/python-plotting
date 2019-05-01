@@ -15,4 +15,4 @@ To get the notebooks that make up this course, either use git to clone the repos
 !unzip python-plotting-master.zip
 ```
 
-Or click here to download from your browser: <https://ualberta-rcg.github.io/python-plotting/>
+Or click here to download from your browser: <https://github.com/ualberta-rcg/python-plotting/archive/master.zip>
