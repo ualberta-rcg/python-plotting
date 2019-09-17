@@ -104,3 +104,5 @@ venv.bak/
 .mypy_cache/
 
 notebooks/my-first-scatter.html
+Untitled.ipynb
+gapminder_gdp_americas.csv
