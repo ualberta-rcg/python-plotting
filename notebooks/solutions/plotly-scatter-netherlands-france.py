@@ -17,15 +17,10 @@ trace1 = go.Scatter(
     )
 )
 
-data = [trace0, trace1]
-layout = dict(
+fig = go.Figure(data = [trace0, trace1])
+fig.update_layout(
     title = 'GDP per-capita for the Netherlands and France',
-    xaxis = dict(
-        title = 'Year'
-    ),
-    yaxis = dict(
-        title = 'GDP per-capita'
-    )
+    xaxis_title = 'Year',
+    yaxis_title = 'GDP per-capita'
 )
-fig = dict(data=data, layout=layout)
-py.iplot(fig)
+fig.show()
