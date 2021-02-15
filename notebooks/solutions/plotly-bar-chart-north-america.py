@@ -23,14 +23,11 @@ trace2 = go.Bar(
 )
 
 data = [trace0, trace1, trace2]
-layout = dict(
+layout = go.Layout(
     title = 'Per-capita GDP Growth in North America',
-    xaxis = dict(
-        title = 'Year'
-    ),
-    yaxis = dict(
-        title = 'GDP per-capita'
-    )
+    xaxis_title = 'Year',
+    yaxis_title = 'GDP per-capita'
 )
-fig = dict(data=data, layout=layout)
-py.iplot(fig)
+
+fig = go.Figure(data=data, layout=layout)
+fig.show()
