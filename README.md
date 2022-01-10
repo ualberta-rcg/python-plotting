@@ -23,6 +23,12 @@ Google Colab, or download them to your own computer.
 
 #### Opening notebooks on Colab:
 
+The following link should load the first notebook into Colab:
+
+<https://colab.research.google.com/github/ualberta-rcg/python-plotting/blob/master/notebooks/01-introduction.ipynb>
+
+If you are in Colab already and you want to load the notebooks, you can also do:
+
 * Go to File->Open notebook
 * Select "Github" tab
   * Organization: ualberta-rcg (important: press enter)
