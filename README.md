@@ -7,13 +7,13 @@
 To install the dependencies, run the following at the command line:
 
 ```
-pip install jupyter matplotlib plotly pandas numpy cufflinks
+pip install jupyter matplotlib plotly pandas numpy
 ```
 
 Or in a Jupyter notebook:
 
 ```
-!pip install matplotlib plotly pandas numpy cufflinks
+!pip install matplotlib plotly pandas numpy
 ```
 
 ### Getting the notebooks
